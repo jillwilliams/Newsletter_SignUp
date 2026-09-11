@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Shadows Into Light";
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.container {
+    width: 600px;
+    border: 1px hotpink solid;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252525;
+    overflow: hidden;
+    padding: 40px;
+    box-shadow: 6px 6px 10px #EB3ACD;
+}
+
+/* the envelope */
+#envelope {
+    color: #EB3ACD;
+    font-size: 50px;
+}
+
+/* text: join our newsletter */
+.join-newsletter {
+    font-size: 30px;
+    color: #f3f4f6;
+    margin-bottom: 20px;
+}
+
+/* text: get the latest.... */
+.get-latest {
+    color: #9ca3af;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*  */
+email-box {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px hotpink;
+    display: flex;
+    position: relative;
+}
+
+#envelope2 {
+    color: #9ca3af;
+    position: absolute;
+    left: 300px;
+    top: 35.5%;
+    transform: translateX(-50%);
+}
+
+/* email input box */
+.email {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #1a1a1a;
+    border: none;
+    box-shadow: 1px 1px 3px hotpink;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #9ca3af;
+}
+
+/* subscribe button */
+.subscribe {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: hotpink;
+    background-color: #252525;
+    box-shadow: 1px 1px 3px hotpink;
+    border: none;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.subscribe:hover {
+    background-color: hotpink;
+    color: #1a1a1a;
+    transition: 1s;
+    transform: translateY(-3px);
+}
+
+/* the line */
+.line {
+    width: 140%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #9ca3af;
+}
+
+/* the checkmarks */
+#checkmark {
+    color: hotpink;
+    margin-top: 5px;
+}
+
+/* footer div */
+.footer {
+    display: block;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+/* the text below the line */
+.footer1 {
+    display: flex;
+    gap: 15px;
+    margin-left: -260px;
+}
+
+/* the actual text */
+.coding-tips, .no-spam, .unsubscribe {
+    font-size: 20px;
+    color: #9ca3af;
+}
